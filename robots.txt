@@ -1,0 +1,18 @@
+# Tệp chỉ đường cho Google – AVITO Xuân Lộc
+# LƯU Ý: Google chỉ đọc robots.txt ở gốc tên miền.
+# Trang này đang nằm ở phanphambao8x-sudo.github.io/avito-qua-bo-me/ nên tệp này
+# chỉ có tác dụng khi được đặt ở https://phanphambao8x-sudo.github.io/robots.txt
+# (hoặc khi trang chuyển sang tên miền riêng).
+
+User-agent: *
+Allow: /
+
+# Trang quản trị
+Disallow: /avito-qua-bo-me/quan-tri/
+Disallow: /avito-qua-bo-me/admin/
+# Trang thanh toán, đơn hàng cá nhân
+Disallow: /avito-qua-bo-me/thanh-toan/
+Disallow: /avito-qua-bo-me/don-hang/
+# Không chặn trang thử /a/: Google cần đọc được thẻ "trang gốc" trên đó.
+
+Sitemap: https://phanphambao8x-sudo.github.io/avito-qua-bo-me/sitemap.xml

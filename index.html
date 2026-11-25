@@ -21,30 +21,169 @@
 <meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@type": "HealthAndBeautyBusiness",
-  "name": "AVITO Xuân Lộc – Dưỡng Sinh Hiện Đại",
-  "url": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/",
-  "image": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/anh-chia-se.jpg",
-  "telephone": "+84921434568",
-  "address": {
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "WebSite",
+   "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#website",
+   "url": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/",
+   "name": "AVITO Xuân Lộc – Quà dưỡng sinh cho bố mẹ",
+   "inLanguage": "vi"
+  },
+  {
+   "@type": "HealthAndBeautyBusiness",
+   "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#tiem",
+   "name": "AVITO Xuân Lộc – Dưỡng Sinh Hiện Đại",
+   "url": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/",
+   "image": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/anh-chia-se.jpg",
+   "telephone": "+84921434568",
+   "address": {
     "@type": "PostalAddress",
     "streetAddress": "Số 3B Ngô Quyền",
     "addressLocality": "Phường Xuân Lộc",
     "addressRegion": "Đồng Nai",
     "addressCountry": "VN"
-  },
-  "openingHoursSpecification": {
+   },
+   "openingHoursSpecification": {
     "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "dayOfWeek": [
+     "Monday",
+     "Tuesday",
+     "Wednesday",
+     "Thursday",
+     "Friday",
+     "Saturday",
+     "Sunday"
+    ],
     "opens": "08:00",
     "closes": "20:00"
+   },
+   "priceRange": "68.000đ – 680.000đ"
   },
-  "priceRange": "68.000đ – 680.000đ",
-  "makesOffer": [
-    {"@type": "Offer", "name": "Thẻ 5 lượt dưỡng sinh (35 phút/lượt)", "price": "340000", "priceCurrency": "VND"},
-    {"@type": "Offer", "name": "Thẻ 10 lượt dưỡng sinh (35 phút/lượt)", "price": "680000", "priceCurrency": "VND"}
-  ]
+  {
+   "@type": "WebPage",
+   "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#trang",
+   "url": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/",
+   "name": "Tặng bố mẹ thẻ dưỡng sinh – AVITO Xuân Lộc",
+   "isPartOf": {
+    "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#website"
+   },
+   "about": {
+    "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#tiem"
+   },
+   "primaryImageOfPage": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/anh-chia-se.jpg",
+   "inLanguage": "vi"
+  },
+  {
+   "@type": "Product",
+   "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#the-5-luot",
+   "name": "Thẻ 5 lượt dưỡng sinh",
+   "description": "5 lượt dưỡng sinh điện sinh học DDS, mỗi lượt 35 phút (68.000đ/lượt) tại AVITO Xuân Lộc. Thẻ ghi tên bố mẹ, dùng trong 3 tháng.",
+   "image": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/anh-chia-se.jpg",
+   "brand": {
+    "@type": "Brand",
+    "name": "AVITO Xuân Lộc"
+   },
+   "offers": {
+    "@type": "Offer",
+    "url": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#dat-qua",
+    "price": "340000",
+    "priceCurrency": "VND",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+     "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#tiem"
+    },
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "VN",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+    }
+   }
+  },
+  {
+   "@type": "Product",
+   "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#the-10-luot",
+   "name": "Thẻ 10 lượt dưỡng sinh",
+   "description": "10 lượt dưỡng sinh điện sinh học DDS, mỗi lượt 35 phút (68.000đ/lượt) tại AVITO Xuân Lộc. Thẻ ghi tên bố mẹ, dùng trong 3 tháng.",
+   "image": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/anh-chia-se.jpg",
+   "brand": {
+    "@type": "Brand",
+    "name": "AVITO Xuân Lộc"
+   },
+   "offers": {
+    "@type": "Offer",
+    "url": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#dat-qua",
+    "price": "680000",
+    "priceCurrency": "VND",
+    "availability": "https://schema.org/InStock",
+    "seller": {
+     "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#tiem"
+    },
+    "hasMerchantReturnPolicy": {
+     "@type": "MerchantReturnPolicy",
+     "applicableCountry": "VN",
+     "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+    }
+   }
+  },
+  {
+   "@type": "FAQPage",
+   "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#hoi-dap",
+   "isPartOf": {
+    "@id": "https://phanphambao8x-sudo.github.io/avito-qua-bo-me/#trang"
+   },
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Dưỡng sinh điện có bị giật, có đau không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Dòng điện cường độ thấp, truyền qua đôi tay kỹ thuật viên. Luôn bắt đầu từ mức nhẹ nhất, cảm giác thường ấm, tê nhẹ. Kỹ thuật viên hỏi cảm nhận mỗi 5–10 phút và chỉnh theo từng người."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Bố mẹ có phải trả thêm tiền gì không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Không. Thẻ con đã trả đủ. Bố mẹ chỉ việc đến đúng giờ hẹn."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Máy có đảm bảo không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "AVITO dùng máy DDS DLC Care nhập chính ngạch, có hoá đơn VAT."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Lần đầu bố mẹ cần chuẩn bị gì?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Mặc đồ thoải mái, đến đúng giờ, kể cho kỹ thuật viên nghe vùng nào hay mỏi. Không nên đến lúc vừa ăn quá no."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Thẻ dùng được bao lâu, cho người khác dùng được không?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Thẻ dùng trong 3 tháng kể từ ngày bố mẹ nhận thẻ. Thẻ ghi tên và chỉ dành cho người có tên trên thẻ, để kỹ thuật viên theo sát sức khoẻ từng người. Thẻ đã mua không hoàn tiền."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Ngũ cốc Ecolim là gì?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Ngũ cốc pha sẵn để ăn sáng, 295.000đ một hộp. Đây là thực phẩm, không phải thuốc. Hộp còn nguyên, chưa mở thì đổi trả trong 7 ngày."
+     }
+    }
+   ]
+  }
+ ]
 }
 </script>
 <style>
